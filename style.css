@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+ html,body{
+   /* border: 2px solid green; */
+   overflow-x: hidden;
+  }
+ /* section1 start */
+    .carousel-item img{
+      height: 80vh;
+    object-fit: cover;
+     /* max-width: 100%; */
+  }
+ label.btn{
+   background-color: #82AE46;
+ }
+  label.btn:hover {
+  transition: background-color 0.4s linear;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #82AE46 !important;
+}
+.heading1{
+      font-family: "Dancing Script", cursive;
+    font-size: 60px;
+  }
+ /* ---------------section1 end ------------- */
+ /* ------------------- section2 start ---------------- */
+ .card1{
+   height: 90px;
+   width: 90px;
+     text-align: center;
+   background-color: pink;
+   color:#fff;
+  }
+.card-img-overlay h5{
+   background-color: green;
+}
+.card1:hover{
+   background-color:green;
+}
+.card1-1 {
+   height: 80px;
+   width: 80px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+}
+ .card1 img{
+   height: 100%;
+   width: 100%;
+ }
+  .card-4 img{
+    transition: transform 1s, filter 0.3s linear;
+ }
+.card-4 img:hover{
+     transform: scale(1.1);
+       }
+/* ----------------------- section2 end -----------------------------------*/
+ 
